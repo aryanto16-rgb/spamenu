@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery add/remove class for SPA menu</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+	</script>
+	<script src="script.js"></script>
+</head>
+<body>
+<header id="header">
+	<div class="container">
+		<a href="#" class="logo">SPA(Single Page Application)</a>
+		<nav class="main_menu">
+			<ul>
+				<li id="satu"><a href="#home">Home</a></li>
+				<li id="dua"><a href="#about">About</a></li>
+				<li id="tiga"><a href="#services">Services</a></li>
+				<li id="empat"><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+<section class="container_row" id="home">
+	<div class="container1">
+		<h2>Home</h2>
+		<p>Sesuai dengan namanya Single Page Application yaitu sebuah konsep aplikasi web yang memiliki satu halaman saja.</p>
+		<p>Pada web biasa atau multi page jika kita melakukan navigasi kehalaman lain, maka browser akan memuat ulang seluruh halaman setelah melakukan request ke server. Berbeda dengan web Single Web Application, ketika kita melakukan navigasi atau berpindah kehalaman lain, maka javascript akan melakukan fetching ke server dan mengganti tampilan ke navigasi lain tanpa perlu browser memuat ulang seluruh halaman.</p>
+		<p>Namun pada web Single Page Application kita diberikan panduan warna untuk situs tersebut. Kemudian menerapkan warna (data dan konten) untuk mengisi template yang telah dibuat (rumah dan pohon). Jadi semisal web kita sudah mempunyai lukisan rumah dan pohon tetapi belum memiliki warna, kemudian kita ingin memberi warna, tinggal beri saja warnanya tanpa harus membuat ulang rumah dan pohonnya seperti pada web multi page.</p>
+			
+	</div>
+</section>
+<section class="container_row" id="about">
+	<div class="container2">
+		<h2>About</h2>
+		<p>Dengan adanya web SPA navigasi antar halaman jadi lebih cepat karena browser tidak perlu memuat seluruh halaman. Dan tentunya akan memberikan User Experience yang luar biasa, karena user tidak perlu menunggu loading saat berpindah antar halaman.</p>
+	</div>
+</section>
+<section class="container_row" id="services">
+	<div class="container3">
+		<h2>Services</h2>
+		<p>Secara teori, single page application merupakan aplikasi yang bekerja di dalam browser yang tidak membutuhkan reload page saat digunakan. Dengan kata lain, pengguna  atau user tidak akan berpindah halaman dengan melakukan request kepada server setiap kali terjadi interaksi pada aplikasi. Yang membedakan SPA dengan non-SPA adalah single page application hanya akan melakukan load terhadap satu halaman dari server kemudian mekanisme routing yang biasanya di-handle oleh server kini dibebankan pada client. Akibatnya, website yang menggunakan SPA memiliki performa yang lebih cepat tanpa harus load halaman secara terus menerus.</p>
+	</div>
+</section>
+<section class="container_row" id="contact">
+	<div class="container4">
+		<h2>Contact</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+</section>
+
+
+</body>
+</html>
